@@ -3,7 +3,7 @@ import PrimeVue from 'primevue/config'
 import Lara from './presets/lara'
 import './style.css'
 import App from './App.vue'
-import router from './router' // import the router
+import router from './router'
 
 createApp(App)
     .use(PrimeVue, {

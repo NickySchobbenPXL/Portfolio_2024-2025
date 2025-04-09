@@ -1,14 +1,32 @@
 <template>
-    <TestComponent />
+  <NavbarComponent/>
+  <HomepageBodyComponent/>
+  <PersonalDevelopmentView/>
+  <SeminarsViewComponent/>
+  <InternationalizationView/>
+  <innovation-view/>
+  <StudentEngagementView/>
 </template>
 
 <script>
-import TestComponent from "../components/TestComponent/TestComponent.vue";
+import HomepageBodyComponent from "../components/Homepage/HomepageBodyComponent.vue";
+import NavbarComponent from "../components/Navbar/NavbarComponent.vue";
+import PersonalDevelopmentView from "./PersonalDevelopment/PersonalDevelopmentView.vue";
+import InternationalizationView from "./Internationalization/InternationalizationView.vue";
+import SeminarsViewComponent from "./Seminars/SeminarsViewComponent.vue";
+import InnovationView from "./Innovation/InnovationView.vue";
+import StudentEngagementView from "./StudentEngagement/StudentEngagementView.vue";
 
 export default {
   name: "TestViewComponent",
   components: {
-    TestComponent
+    StudentEngagementView,
+    InnovationView,
+    SeminarsViewComponent,
+    InternationalizationView,
+    PersonalDevelopmentView,
+    NavbarComponent,
+    HomepageBodyComponent,
   }
 }
 </script>

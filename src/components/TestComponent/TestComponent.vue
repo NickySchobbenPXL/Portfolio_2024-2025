@@ -1,13 +1,19 @@
 <template>
-  <div>THIS IS A TEST COMPONENT</div>
+  <SelectedInternationalizationView/>
 </template>
 
 <script>
+
+import SelectedInternationalizationView
+  from "../../Views/SelectedActivities/SelectedInternationalization/SelectedInternationalizationView.vue";
+
 export default {
-  name: "TestComponent"
+  components: {
+    SelectedInternationalizationView,
+  }
 }
+
 </script>
 
-<style scoped>
-
+<style>
 </style>

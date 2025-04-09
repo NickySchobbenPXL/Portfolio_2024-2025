@@ -1,25 +1,19 @@
 <template>
   <main>
     <component class="NavBarComp" :is="NavbarComponent"/>
-    <component class="FirstBodyComp" :is="FirstBodyComponent"/>
-    <component class="IntroductionComp" :is="IntroductionComponent"/>
-    <component class="InterestsComp" :is="InterestsComponent"/>
+    <component class="HomepageBodyComp" :is="HomepageBodyComponent"/>
   </main>
 </template>
 
 <script>
-import NavbarComponent from "../../components/navbar/NavbarComponent.vue";
-import FirstBodyComponent from "../../components/Homepage/FirstBodyComponent.vue";
-import IntroductionComponent from "../../components/Homepage/IntroductionComponent.vue";
-import InterestsComponent from "../../components/Homepage/InterestsComponent.vue";
+import NavbarComponent from "../../components/Navbar/NavbarComponent.vue";
+import HomepageBodyComponent from "../../components/Homepage/HomepageBodyComponent.vue";
 
 export default {
   data() {
     return {
       NavbarComponent: NavbarComponent,
-      FirstBodyComponent: FirstBodyComponent,
-      IntroductionComponent: IntroductionComponent,
-      InterestsComponent: InterestsComponent,
+      HomepageBodyComponent:HomepageBodyComponent,
     }
   }
 }
