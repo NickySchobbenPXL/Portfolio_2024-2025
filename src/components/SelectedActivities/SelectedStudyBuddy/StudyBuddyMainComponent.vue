@@ -36,7 +36,9 @@ Daarnaast kregen we enkele praktische tips. Zo werd aangeraden om elke sessie te
       </header>
 
       <div class="mx-auto mt-10 max-w-screen-md space-y-12 px-4 py-10 font-serif text-lg tracking-wide text-gray-700">
-        <strong class="text-2xl font-medium">Omschrijving</strong>
+        <h1 class="font-bold leading-snug tracking-tight text-slate-800 mx-auto w-full text-3xl text-center">
+          Omschrijving
+        </h1>
         <p v-html="descriptionText"></p>
       </div>
 
@@ -48,7 +50,9 @@ Daarnaast kregen we enkele praktische tips. Zo werd aangeraden om elke sessie te
       </div>
 
       <div class="mx-auto mt-10 max-w-screen-md space-y-12 px-4 py-10 font-serif text-lg tracking-wide text-gray-700">
-        <strong class="text-2xl font-medium">Een eerste inkijk in het Study Buddy-programma:</strong>
+        <h1 class="font-bold leading-snug tracking-tight text-slate-800 mx-auto w-full text-3xl text-center">
+          Een eerste inkijk in het Study Buddy-programma
+        </h1>
         <p v-html="secondDescriptionText"></p>
       </div>
     </article>

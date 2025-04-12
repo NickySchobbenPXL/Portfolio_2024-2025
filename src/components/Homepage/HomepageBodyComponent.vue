@@ -36,12 +36,10 @@
       </a>
       <div class="flex flex-col text-center pb-20 pt-20 lg:pt-28 pb-10 text-black max-w-screen-md mx-auto">
         <h2 class="text-4xl font-medium lg:text-7xl">
-          How it's <span class="text-purple-500 font-bold"
-                         style="font-family: 'Nothing You Could Do', cursive;">works</span>
+          Wie ben <span class="text-purple-500 font-bold"
+                        style="font-family: 'Nothing You Could Do', cursive;">Ik?</span>
         </h2>
-        <span class="text-gray-600 pt-5 text-[20px] leading-[26px]">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus cupidatat.
-        Lorem ipsum dolor sit amet consectetur.
+        <span v-html="introductionText" class="text-gray-600 pt-5 text-[20px] leading-[26px] text-left">
       </span>
       </div>
       <div class="pb-10 lg:pb-20">
@@ -54,21 +52,17 @@
                   data-name="Travel Abroad"/>
             </svg>
             <h2 class="mt-4 text-xl font-semibold text-gray-800">Reizen</h2>
-            <p class="mt-2 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit.
-              Et mi gravida sem feugiat.
-            </p>
+            <p v-html="travelText" class="mt-2 text-gray-500"></p>
           </div>
 
           <div class="flex flex-col items-center">
-            <svg class="w-[150px] h-[150px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64"
+            <svg class="w-[150px] h-[150px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"
+                 style="enable-background:new 0 0 64 64"
                  xml:space="preserve"><path d="M9.66 24.019a3.596 3.596 0 0 0-3.592 3.593V39.68a3.596 3.596 0 0 0 3.592 3.593 3.597 3.597 0 0 0 3.593-3.593V27.612a3.597 3.597 0 0 0-3.593-3.593zm1.593 15.661c0 .879-.715 1.593-1.593 1.593s-1.592-.714-1.592-1.593V27.612c0-.879.714-1.593 1.592-1.593s1.593.714 1.593 1.593V39.68zM32.7 31.26a8.22 8.22 0 0 0-1.313-2.246 8.14 8.14 0 0 0 .264-1.966c0-4.495-3.656-8.152-8.15-8.152s-8.147 3.657-8.147 8.152c0 1.882.647 3.68 1.822 5.13a8.116 8.116 0 0 0-.246 1.954c0 2.896 1.516 5.508 3.975 6.978.32 4.962 4.45 8.904 9.493 8.904 5.252 0 9.526-4.271 9.526-9.521 0-4.458-3.083-8.2-7.225-9.233zm-14.62-1.309a6.142 6.142 0 0 1-.726-2.903c0-3.392 2.757-6.152 6.148-6.152a6.158 6.158 0 0 1 6.14 6.483 4.482 4.482 0 0 0-.548-.314 8.093 8.093 0 0 0-4.012-1.086c-2.949 0-5.529 1.58-6.96 3.93l-.043.042zm2.954 8.817a6.12 6.12 0 0 1-2.104-4.636 6.16 6.16 0 0 1 6.152-6.153 6.19 6.19 0 0 1 5.274 2.989l-.008.003c-4.636.024-8.492 3.378-9.308 7.787l-.006.01zm9.364 9.246c-4.149 0-7.524-3.374-7.524-7.521 0-4.15 3.375-7.525 7.524-7.525s7.526 3.375 7.526 7.525c0 4.147-3.376 7.521-7.526 7.521z"/>
               <path
                   d="m62.094 51.194-.433-.832V16.498a4.396 4.396 0 0 0-4.391-4.392H41.073l-3.426-6.252a.999.999 0 0 0-1.732-.04c-1.16 1.905-1.708 4.024-1.789 6.292H5.392A4.396 4.396 0 0 0 1 16.498v34.97a4.398 4.398 0 0 0 4.392 4.396h48.785c.488 1.294 1.56 2.256 3.012 2.635.438.114.882.17 1.32.17 1.43 0 2.79-.59 3.623-1.634.678-.85 1.576-2.741-.038-5.841zm-4.825-37.088a2.394 2.394 0 0 1 2.392 2.392v30.02l-5.692-10.94-.027.014-11.774-21.486H57.27zM36.822 8.509l15.367 28.045-5.165 2.83s-3.277-5.767-4.57-8.193c-4.421-8.29-7.887-16.652-5.632-22.682zM3 51.469V16.498a2.394 2.394 0 0 1 2.392-2.392h28.777c.584 7.736 5.795 16.905 10.55 25.271l1.05 1.85a1 1 0 0 0 1.351.385l1.18-.647c2.76 4.683 4.506 8.361 5.416 12.899H5.392A2.396 2.396 0 0 1 3 51.469zm57.567 4.32c-.591.743-1.773 1.062-2.873.775-.574-.15-1.569-.591-1.777-1.862-.964-5.879-3.2-10.205-5.856-14.7l3.079-1.686 7.18 13.801c.809 1.553.897 2.858.247 3.672z"/></svg>
             <h2 class="mt-4 text-xl font-semibold text-gray-800">Studeren</h2>
-            <p class="mt-2 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit.
-              Et mi gravida sem feugiat.
+            <p v-html="learningText" class="mt-2 text-gray-500">
             </p>
           </div>
 
@@ -79,10 +73,7 @@
               <path
                   d="M32.7 50h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H32.7c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8zM32.7 59.3h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H32.7c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8zM32.7 68.7h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H32.7c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8zM32.7 78h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H32.7c-1 0-1.8.8-1.8 1.8s.8 1.8 1.8 1.8zM72.8 50h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H72.8c-1 0-1.8.8-1.8 1.8s.9 1.8 1.8 1.8zM72.8 59.3h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H72.8c-1 0-1.8.8-1.8 1.8s.9 1.8 1.8 1.8zM72.8 68.7h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H72.8c-1 0-1.8.8-1.8 1.8s.9 1.8 1.8 1.8zM72.8 78h22.5c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8H72.8c-1 0-1.8.8-1.8 1.8s.9 1.8 1.8 1.8z"/></svg>
             <h2 class="mt-4 text-xl font-semibold text-gray-800">Koken</h2>
-            <p class="mt-2 text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit.
-              Et mi gravida sem feugiat.
-            </p>
+            <p v-html="cookingText" class="mt-2 text-gray-500"></p>
           </div>
         </div>
       </div>
@@ -93,10 +84,12 @@
 </template>
 
 
-<script>
-  export default {
-  name: "HomepageBodyComponent"
-  }
+<script setup>
+const introductionText = `Mijn naam is Nicky Schobben, 34 jaar, en woon in Hasselt met mijn Japanse vrouw. Voor mijn Bachelor Toegepaste Informatica werkte ik zeven jaar in de verkoop, uiteindelijk als assistent-manager bij Switch. De ambitie om verder te studeren bleef echter aanwezig, en dankzij de VDAB ben ik gestart met de opleiding applicatieontwikkeling aan Hogeschool PXL. Ik ben ambitieus, resultaatgericht en volhardend, en geloof sterk in het Japanse concept van Shokunin, dat vakmanschap, toewijding en voortdurende zelfverbetering benadrukt.<br><br>
+In mijn vrije tijd focus ik me op persoonlijke ontwikkeling, koken, citytrips met mijn vrouw en programmeer ik graag. Tijdens het I-Talent-traject heb ik veel over mezelf geleerd, met feedback die me helpt mijn persoonlijke groei verder te stimuleren. Mijn doel is om in de toekomst te werken bij een ambitieus bedrijf, waar ik kan groeien en bijdragen aan projecten die impact hebben op de maatschappij.`
+const travelText = `Travel, Travel, Travel`
+const cookingText = `Cooking, Cooking, Cooking`
+const learningText = `Learning, Learning, Learning`
 </script>
 
 

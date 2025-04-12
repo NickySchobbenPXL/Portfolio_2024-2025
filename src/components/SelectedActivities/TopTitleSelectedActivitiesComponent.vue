@@ -6,7 +6,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex items-center justify-center text-center h-[300px] my-20">
+  <div class="flex items-center justify-center text-center h-[300px] my-20 bg-black">
     <div>
       <h2 class="text-6xl font-medium text-black">
         {{title}}
