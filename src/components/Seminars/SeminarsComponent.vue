@@ -24,7 +24,7 @@ export default {
     return {
       seminars: [
         {
-          image: '/Portfolio_2024/images/cbtw2.png',
+          image: '/Portfolio_2024-2025/images/cbtw2.png',
           title: 'CQRS (Command and Query Responsibility Segregation) met MediatR',
           company: 'CBTW/Positive Thinking Company',
           location: 'Campus Elfde-Linie - G414',
@@ -34,7 +34,7 @@ export default {
           hoe het werkt en hoe we het optimaal kunnen inzetten als toekomstige ontwikkelaars.`
         },
         {
-          image: '/Portfolio_2024/images/biq.svg',
+          image: '/Portfolio_2024-2025/images/biq.svg',
           title: 'Het nut van pull requests en code review in een product development lifecycle',
           company: 'BIQ',
           location: 'Campus Elfde-Linie - G141',
@@ -52,7 +52,7 @@ export default {
           We leerden hoe we effectieve prompts kunnen schrijven om het gewenste visuele resultaat te bereiken.`
         },
         {
-          image: '/Portfolio_2024/images/AE.png',
+          image: '/Portfolio_2024-2025/images/AE.png',
           title: 'API & Security Testing: Unleashing the Power of Manual Testing',
           company: 'AE',
           location: 'Campus Elfde-Linie - G414',
@@ -62,7 +62,7 @@ export default {
           probeerden te hacken om kwetsbaarheden beter te begrijpen.`
         },
         {
-          image: '/Portfolio_2024/images/ncomputer_logo.jpg',
+          image: '/Portfolio_2024-2025/images/ncomputer_logo.jpg',
           title: 'Prompt engineering',
           company: 'Nocomputer',
           location: 'Corda 7 - iClassroom 3 CC714',
@@ -72,7 +72,7 @@ export default {
           verschillende contexten en hoe je tools zoals ChatGPT optimaal kunt benutten voor snellere en betere resultaten.`
         },
         {
-          image: '/Portfolio_2024/images/it_licious_logo.jpg',
+          image: '/Portfolio_2024-2025/images/it_licious_logo.jpg',
           title: 'Flutter',
           company: 'ITLicious',
           location: 'Corda 7 - iClassroom 3 CC713',
@@ -82,7 +82,7 @@ export default {
           Tijdens deze seminarie kregen we een introductie over de werking van Flutter en namen we deel aan een hands-on workshop om het framework verder te verkennen.`
         },
         {
-          image: '/Portfolio_2024/images/gluo_logo.png',
+          image: '/Portfolio_2024-2025/images/gluo_logo.png',
           title: 'DevSecOps Workshop',
           company: 'Gluo',
           location: 'Corda 7 - iClassroom 3 CC713',
@@ -90,7 +90,7 @@ export default {
           description: `In deze seminarie kregen we inzicht in DevSecOps, waarbij beveiliging integraal onderdeel is van de softwareontwikkelingscyclus. Door middel van labs leerden we hoe je applicaties veilig kunt deployen in de cloud.`
         },
         {
-          image: '/Portfolio_2024/images/cegeka_logo.svg',
+          image: '/Portfolio_2024-2025/images/cegeka_logo.svg',
           title: 'Bedrijfsbezoek en datacenter',
           company: 'Cegeka',
           location: 'Cegeka (Universiteitslaan)',

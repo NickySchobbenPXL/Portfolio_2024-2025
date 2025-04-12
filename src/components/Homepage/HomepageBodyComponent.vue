@@ -25,7 +25,7 @@
   <section class="bg-white py-10">
     <div class="mx-auto sm:px-7 px-4 max-w-screen-xl text-center">
       <a class="object-fill border border-black video-block block mx-auto mt-[-200px] relative bg-gray-900 rounded w-full aspect-video max-w-[600px]"
-         style="background-image:url(/Portfolio_2024/images/testpicture.jpg);background-size:cover;background-position:center;">
+         style="background-image:url(/Portfolio_2024-2025/images/testpicture.jpg);background-size:cover;background-position:center;">
         <div class="flex items-center justify-center w-full h-full">
           <div class="absolute bottom-[-20px] flex w-full justify-center">
           <span class="shadow-md bg-purple-500 rounded-3xl text-white text-xl px-6 py-2">

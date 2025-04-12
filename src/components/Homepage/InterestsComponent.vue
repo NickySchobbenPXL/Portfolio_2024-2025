@@ -12,19 +12,19 @@
         <div class="flex-1"></div>
 
         <div class="flex-1 text-center flex flex-col items-center justify-center">
-          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/public/images/travel.png" alt="study" />
+          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/Portfolio_2024-2025/images/travel.png" alt="study" />
           <h4 class="text-xl font-bold mb-2">Reizen</h4>
           <p class="bg-yellow-200 overflow-clip overflow-hidden">Description: the text of this title should automatically truncate but it should never use more than 100% of the parent element</p>
         </div>
 
         <div class="flex-1 text-center flex flex-col items-center justify-center">
-          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/public/images/cooking.png" alt="study" />
+          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/Portfolio_2024-2025/images/cooking.png" alt="study" />
           <h4 class="text-xl font-bold mb-2">Koken</h4>
           <p class="bg-yellow-200 overflow-clip overflow-hidden">Description: the text of this title should automatically truncate but it should never use more than 100% of the parent element</p>
         </div>
 
         <div class="flex-1 text-center flex flex-col items-center justify-center">
-          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/public/images/study.png" alt="study" />
+          <img class="w-[100px] h-[100px] mb-3 shadow-lg" src="/Portfolio_2024-2025/images/study.png" alt="study" />
           <h4 class="text-xl font-bold mb-2">Studeren</h4>
           <p class="bg-yellow-200 overflow-clip overflow-hidden">Description: the text of this title should automatically truncate but it should never use more than 100% of the parent element</p>
         </div>

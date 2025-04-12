@@ -101,7 +101,7 @@
 </template>
 
 <script setup>
-const imgUrl = "/Portfolio_2024/images/logopxl.png";
+const imgUrl = "/Portfolio_2024-2025/images/logopxl.png";
 </script>
 
 <style scoped>

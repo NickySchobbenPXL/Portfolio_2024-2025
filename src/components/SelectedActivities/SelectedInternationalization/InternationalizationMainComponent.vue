@@ -5,7 +5,7 @@ import RightPictureLeftTextComponent from "./RightPictureLeftTextComponent.vue";
 
 const title = "Special Topics in Digital Marketing BIP - Metaverse";
 const year = "2024";
-const imgUrl = "/Portfolio_2024/images/algebra_logo.png"
+const imgUrl = "/Portfolio_2024-2025/images/algebra_logo.png"
 const descriptionText = `Elk jaar organiseren PXL, Algebra University en Rosenheim University of Applied Sciences een BIP-week rond een specifiek thema.
 Dit jaar vond deze plaats in Zagreb, Kroatië, aan de Algebra University. Het thema ging over Metaverse,
 een fascinerende digitale wereld vol kansen en uitdagingen. Het doel was om samen na te denken over hoe je een bedrijf in de Metaverse zou kunnen starten,
@@ -43,7 +43,7 @@ const textData = ref([
    je effectieve marketingstrategieën kunt ontwikkelen om deze doelgroep te bereiken.
    Als afsluiting kregen we een beknopte introductie over de opbouw van de eindpresentatie voor de jury, zodat we goed voorbereid aan de slag konden gaan.
     `,
-    imgUrl: "/Portfolio_2024/images/internationalisering1.png",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering1.png",
   },
   {
     title: "Aankomst in Zagreb",
@@ -51,7 +51,7 @@ const textData = ref([
      Het ander deel van de groep had ervoor gekozen om al een dag eerder, op zaterdag, al naar Kroatië te gaan om de hoofdstad Zagreb op hun eigen tempo te verkennen.<br><br>
 Bij aankomst hebben we ons direct ingecheckt en zijn we samen met de volledige groep van PXL gaan uiteten. Dit was het perfecte moment om elkaar beter te leren kennen en de week in een gezellige sfeer te beginnen.
 `,
-    imgUrl: "/Portfolio_2024/images/internationalisering2.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering2.jpg",
   },
   {
     title: "Dag 1: Start van de BIP-werkweek",
@@ -67,7 +67,7 @@ Bij aankomst hebben we ons direct ingecheckt en zijn we samen met de volledige g
      Zo kozen we gezamenlijk Reinaud als teamleider, omdat hij de juiste kwaliteiten had om de leiding te nemen. De overige teamleden verdeelden de ondersteunende rollen,
      waarbij ikzelf de taak kreeg om het team te begeleiden en te sturen waar nodig.
 `,
-    imgUrl: "/Portfolio_2024/images/internationalisering3.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering3.jpg",
   },
   {
     title: "Dag 2: Tijd om samen te innoveren",
@@ -88,7 +88,7 @@ Bij aankomst hebben we ons direct ingecheckt en zijn we samen met de volledige g
     In sommige gevallen zou dit zelfs onmogelijk of niet toegestaan kunnen zijn.<br><br>
     We hadden al snel het gevoel dat we mogelijk wat te hoog gegrepen hadden, maar waren toch vastberaden om ons op dit project te richten en het tot een goed einde te brengen.
 `,
-    imgUrl: "/Portfolio_2024/images/internationalisering4.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering4.jpg",
   },
   {
     title: "Dag 3: Even op adem komen met een toffe daguitstap",
@@ -102,24 +102,24 @@ Bij aankomst hebben we ons direct ingecheckt en zijn we samen met de volledige g
     bood ons een blik op de rijke Kroatische geschiedenis.<br><br>
     Wat deze uitstap echter bijzonder maakte, was de kans om in een ontspannen sfeer nog beter kennis te maken met de studenten uit Duitsland en Kroatië.
 `,
-    imgUrl: "/Portfolio_2024/images/internationalisering5.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering5.jpg",
   },
   {
     title: "Dag 4: Afronding van het project, en de voorbereidingen voor de jurypresentatie",
     description: `Voor de vierde dag was het de bedoeling om ons project af te ronden, en de laatste puntjes op de i te zetten. Toch waren we als groep nog lang niet klaar, omdat we steeds bleven dromen over nieuwe ideeën. Uiteindelijk besloten we om een groot deel van de features te schrappen, zodat we onze deadline konden halen. Tegen het einde van de dag verdeelden we ons over verschillende lokalen om te oefenen voor de jurypresentatie die de volgende dag gepland stond. Rond 19:00 uur hadden we eindelijk het gevoel dat we genoeg geoefend hadden en klaar waren voor de grote finale.`,
-    imgUrl: "/Portfolio_2024/images/internationalisering6.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering6.jpg",
   },
   {
     title: "Dag 5: De jurypresentatie en het verdict",
     description: `De laatste dag, en voor velen ook de meest stressvolle van de hele week. Het was eindelijk tijd voor onze jurypresentatie. Groep per groep werden we naar voren geroepen om onze pitch te geven. We kregen ongeveer 15 minuten om onze presentatie te houden, gevolgd door nog eens 15 minuten voor een Q&A. De Q&A was opgemaakt als een soort van “shark tank” ervaring. Hier speelde de jury de rol van fictieve investeerders die op basis van ons project bepaalden of ze wel of niet zouden ‘investeren’. Een spannende, maar vooral ontzettend leuke ervaring. <br><br>
 Nadat alle presentaties klaar waren, en we konden genieten van een welverdiende pauze, kwam eindelijk het verdict! De ‘sharks’ hadden een top 3 samengesteld met de beste projecten. Helaas zaten wij daar niet bij, maar dat vonden we op zich niet erg. We waren oprecht tevreden met wat we als team hadden bereikt, en dat voelde voor ons als de echte overwinning van het verhaal.
 `,
-    imgUrl: "/Portfolio_2024/images/internationalisering7.jpg",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering7.jpg",
   },
   {
     title: "Extra: Infiltratieplan Rosenheim – Missie Geslaagd!",
     description: `Een onvergetelijke herinnering aan onze trip was de geheime missie van Reinaud en mij om ons zonder probleem tussen de Duitse locals te mengen. Hoewel we hadden gezworen dit undercoveravontuur tussen ons geheim te houden, wist speurneus Jan Castermans ons uiteindelijk toch te ontmaskeren. Betrapt... maar wel met stijl!`,
-    imgUrl: "/Portfolio_2024/images/internationalisering8.png",
+    imgUrl: "/Portfolio_2024-2025/images/internationalisering8.png",
   },
 ]);
 </script>

@@ -1,7 +1,7 @@
 <script setup>
 import {computed, ref} from "vue";
 
-const imgUrl = "/Portfolio_2024/images/student2.png";
+const imgUrl = "/Portfolio_2024-2025/images/student2.png";
 
 const data = ref([
   {

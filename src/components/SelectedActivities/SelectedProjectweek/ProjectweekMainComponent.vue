@@ -51,7 +51,7 @@ import ProjectweekArticleComponent from "./ProjectweekArticleComponent.vue";
 
 const title = "Projectweek";
 const year = "2024";
-const imgUrl = "/Portfolio_2024/images/projectweek_logo.png"
+const imgUrl = "/Portfolio_2024-2025/images/projectweek_logo.png"
 const descriptionText = "De projectweek is een week vol diverse activiteiten die ons voorbereiden op het researchproject. Tijdens deze week maakten we voor het eerst kennis met ons team en kregen we een uitgebreide introductie over het project. We namen deel aan verschillende pop-sessies, volgden een workshop over onderzoekend handelen en kregen een sessie over het Agile-proces. Daarnaast kregen we meer inzicht in I-Talent en hadden we de kans om tijdens een jobevent in contact te komen met bedrijven, wat een toffe eerste stap was in het opbouwen van ons professionele netwerk."
 const activityDescriptions = [
   {
