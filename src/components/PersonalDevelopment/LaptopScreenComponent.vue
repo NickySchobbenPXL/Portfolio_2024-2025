@@ -8,7 +8,7 @@ defineProps({
   url: String,
 });
 
-const imgUrl = "/images/google_logo.png"
+const imgUrl = "/Portfolio_2024/images/google_logo.png"
 </script>
 
 <template>

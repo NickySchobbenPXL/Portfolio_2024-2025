@@ -3,10 +3,10 @@ import {computed, ref} from 'vue';
 
 const studentEngagementImgUrls = ref([
   {
-    imgUrl: "/images/java_essentials_logo.jpg"
+    imgUrl: "/Portfolio_2024/images/java_essentials_logo.jpg"
   },
   {
-    imgUrl: "/images/python_essentials_logo.jpg"
+    imgUrl: "/Portfolio_2024/images/python_essentials_logo.jpg"
   },
 ]);
 

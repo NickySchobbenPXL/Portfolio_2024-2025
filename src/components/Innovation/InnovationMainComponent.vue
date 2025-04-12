@@ -12,7 +12,7 @@ const innovationCards = ref([
     description: "Introductie in UI/UX-design, met de focus op het belang van UX-design en hoe je leert denken vanuit een designperspectief." +
         "Daarnaast heb ik een eigen UI/UX-design uitgewerkt voor een zelfbedacht concept," +
         " aan de hand van wireframes om het idee visueel vorm te geven.",
-    imgUrl: "/images/ui_ux_design_logo.png"
+    imgUrl: "/Portfolio_2024/images/ui_ux_design_logo.png"
   },
   {
     title: "Hackathon: Hack The Future",
@@ -22,7 +22,7 @@ const innovationCards = ref([
     description: "Jaarlijkse hackathon waarbij je samen met een teamgenoot verschillende opdrachten oplost," +
         " variërend van eenvoudig tot complex. Daarnaast biedt het " +
         "evenement een netwerkmoment, waarbij we de kans kregen om in contact te komen met verschillende bedrijven.",
-    imgUrl: "images/hackthefuture_logo.jpeg"
+    imgUrl: "/Portfolio_2024/images/hackthefuture_logo.jpeg"
   },
 ]);
 </script>
