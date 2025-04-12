@@ -4,7 +4,7 @@ import HackathonMessengerComponent from "./HackathonMessengerComponent.vue";
 
 const title = "Hackathon: Hack The Future";
 const year = "2025";
-const imgUrl = "/public/images/htf_logo.jpg"
+const imgUrl = "/images/htf_logo.jpg"
 const descriptionText = `Voor de hackathon van dit jaar koos ik ervoor om deel te nemen aan Hack The Future, de 11e editie van dit evenement, georganiseerd door de Cronos Groep. Hack The Future is een jaarlijkse hackathon waarbij studenten, in teams van twee, een uitdagende opdracht voorgeschoteld krijgen die ze binnen een dag moeten oplossen. De hackathon is verdeeld over twee dagen: één voor IT-profielen en één voor studenten uit creatieve richtingen zoals marketing, communicatie en design.<br><br> Het evenement gaat niet alleen over technische oplossingen, maar biedt ook ruimte voor creatief denken en samenwerking. het thema van dit jaar, ‘Among the Stars’, zorgde voor een speelse en futuristische sfeer die het analytisch denkvermogen en de creativiteit van de deelnemers aanwakkerde. Het evenement vond plaats in het Flanders Meeting & Convention Center, gelegen in de Zoo van Antwerpen. Ik heb samen met mijn goede vriend en klasgenoot Mike Vanbree deelgenomen aan dit evenement.`
 </script>
 

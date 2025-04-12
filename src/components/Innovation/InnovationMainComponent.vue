@@ -22,7 +22,7 @@ const innovationCards = ref([
     description: "Jaarlijkse hackathon waarbij je samen met een teamgenoot verschillende opdrachten oplost," +
         " variërend van eenvoudig tot complex. Daarnaast biedt het " +
         "evenement een netwerkmoment, waarbij we de kans kregen om in contact te komen met verschillende bedrijven.",
-    imgUrl: "/images/hackthefuture_logo.jpeg"
+    imgUrl: "images/hackthefuture_logo.jpeg"
   },
 ]);
 </script>

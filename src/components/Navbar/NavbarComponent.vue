@@ -4,7 +4,7 @@
 
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img :src="logoPxl" class="h-8" alt="PxlLogo"/>
+        <img :src="imgUrl" class="h-8" alt="PxlLogo"/>
         <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">I-talent 2024-2025</span>
       </a>
 
@@ -100,18 +100,8 @@
 
 </template>
 
-<script>
-
-import Logo from "../../../public/images/logopxl.png"
-
-export default {
-  name: "NavbarComponent",
-  data() {
-    return {
-      logoPxl: Logo
-    };
-  }
-}
+<script setup>
+const imgUrl = "/images/logopxl.png";
 </script>
 
 <style scoped>

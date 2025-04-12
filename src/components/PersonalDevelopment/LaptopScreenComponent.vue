@@ -7,6 +7,8 @@ defineProps({
   description: String,
   url: String,
 });
+
+const imgUrl = "/images/google_logo.png"
 </script>
 
 <template>
@@ -19,7 +21,7 @@ defineProps({
         <!-- Top Bar -->
         <div class="bg-gray-200 h-10 flex items-center justify-between px-4 rounded-t-lg shrink-0">
           <img
-              src="/images/google_logo.png"
+              :src="imgUrl"
               alt="Google"
               class="w-20 h-7 mr-2"
           />
