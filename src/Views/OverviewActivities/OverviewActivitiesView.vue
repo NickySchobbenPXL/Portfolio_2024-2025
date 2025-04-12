@@ -1,5 +1,9 @@
 <template>
   <component class="NavBarComp" :is="NavbarComponent"/>
+  <TopTitleSelectedActivitiesComponent
+  :title="'Overzicht activiteiten'"
+  :year="'2024-2025'"
+  />
   <PersonalDevelopmentView/>
   <InternationalizationView/>
   <InnovationView/>
@@ -15,10 +19,13 @@ import PersonalDevelopmentView from "../PersonalDevelopment/PersonalDevelopmentV
 import InternationalizationView from "../Internationalization/InternationalizationView.vue";
 import InnovationView from "../Innovation/InnovationView.vue";
 import StudentEngagementView from "../StudentEngagement/StudentEngagementView.vue";
+import TopTitleSelectedActivitiesComponent
+  from "../../components/SelectedActivities/TopTitleSelectedActivitiesComponent.vue";
 
 export default {
   name: "OverviewActivitiesView",
   components: {
+    TopTitleSelectedActivitiesComponent,
     StudentEngagementView,
     InnovationView, InternationalizationView, PersonalDevelopmentView, SeminarsViewComponent},
   data() {
